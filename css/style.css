@@ -160,7 +160,15 @@ body {
 
   .feature-section .txt {
     font-weight: 500;
-    font-size: 20px; } }
+    font-size: 20px; 
+} 
+.btn-group-lg > .btn, .btn-lg {
+	padding: 0.5rem 0rem;
+	font-size: 1.25rem;
+	line-height: 1.5;
+	border-radius: .3rem;
+}
+}
 /*small divice*/
 @media (max-width: 767px) {
   #header-section .banner-area .banner-items h2 {
@@ -207,7 +215,13 @@ body {
 
   .feature-section .txt {
     font-weight: 500;
-    font-size: 18px; } }
+    font-size: 18px; 
+} 
+.contact-section a {
+	font-size: 16px;
+	padding: 10px;
+}
+}
 /*xtrasmall device*/
 @media (max-width: 575px) {
   #header-section .banner-img img {
@@ -257,11 +271,21 @@ body {
     padding: 0; }
 
   .contact-section a {
-    margin-top: 15px; } }
+    margin-top: 15px; 
+} 
+.contact-section a {
+	font-size: 16px;
+	
+}
+}
 
 @media (max-width: 380px){
    	.top-footer i {
 	font-size: 29px;
+	
+}
+.contact-section a {
+	font-size: 16px;
 	
 }
 }
